@@ -62,8 +62,8 @@ class Player(Entity): # Player class
 
 
 class Enemy(Entity): # Enemy class
-    def __init__(self): # Enemy constructor
-        super().__init__(700, 500, 1, 20, "Enemy", tk.Frame(window, width=20, height=20, bg='green'))
+    def __init__(self, colour: str, name: str, StartPos: (int,int)): # Enemy constructor
+        super().__init__(StartPos[0], StartPos[1], 1, 20, name, tk.Frame(window, width=20, height=20, bg=colour))
 
     def trackPlayer(self, player: Player):
         if player.coordinates[0] + 15 > self.coordinates[0]:
@@ -108,7 +108,7 @@ def ticker(coords: tk.Label, player: Player): # Ticker function to update the ga
         coords.configure(text=f'X: {player.coordinates[0]} Y: {player.coordinates[1]}')
         for entity in Entities:
             entity.render()
-            if entity.name == "Enemy":
+            if not entity.name == "Player":
                 entity.trackPlayer(player)
         sleep(0.01667)
 
@@ -123,8 +123,13 @@ lbl = tk.Label(window, text='', font=('Arial Bold', 50))
 
 # Entity starter
 player = Player()
-enemy = Enemy()
-Entities.append(enemy)
+enemy1 = Enemy("green", "bob", (400, 300))
+enemy2 = Enemy("green", "jerry", (200, 100))
+enemy3 = Enemy("green", "tom", (600, 400))
+
+Entities.append(enemy1)
+Entities.append(enemy2)
+Entities.append(enemy3)
 Entities.append(player)
 
 # Input controller

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a80b0f8-12c7-4628-bbe6-2ccd0ddc9531" name="Changes" comment="Tweaked the movement even more, now moving diagonally is smooth, and implemented a ticking system. Changed the pulse code to make it slightly better and add some better startup debug messages.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7a80b0f8-12c7-4628-bbe6-2ccd0ddc9531" name="Changes" comment="Made so that the game doesn't do anything when not in focus, Tried to make some colliders, unsure currently why they don't work currently. Also, there's the diagonal movement bug, but not that significant.">
       <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729420465015</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Made so that the game doesn't do anything when not in focus, Tried to make some colliders, unsure currently why they don't work currently. Also, there's the diagonal movement bug, but not that significant.">
+      <option name="closed" value="true" />
+      <created>1729423511170</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729423511170</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +143,7 @@
     <MESSAGE value="Player created" />
     <MESSAGE value="Tweaked the movement" />
     <MESSAGE value="Tweaked the movement even more, now moving diagonally is smooth, and implemented a ticking system. Changed the pulse code to make it slightly better and add some better startup debug messages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tweaked the movement even more, now moving diagonally is smooth, and implemented a ticking system. Changed the pulse code to make it slightly better and add some better startup debug messages." />
+    <MESSAGE value="Made so that the game doesn't do anything when not in focus, Tried to make some colliders, unsure currently why they don't work currently. Also, there's the diagonal movement bug, but not that significant." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made so that the game doesn't do anything when not in focus, Tried to make some colliders, unsure currently why they don't work currently. Also, there's the diagonal movement bug, but not that significant." />
   </component>
 </project>
