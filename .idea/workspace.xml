@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a80b0f8-12c7-4628-bbe6-2ccd0ddc9531" name="Changes" comment="Player created">
+    <list default="true" id="7a80b0f8-12c7-4628-bbe6-2ccd0ddc9531" name="Changes" comment="Tweaked the movement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
     </list>
@@ -23,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Turtin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Turtin&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Turtin/Basic-OOP-Game.git",
-    "accountId": "747266fe-3c8a-49de-9b65-24b0f5f96ae9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Turtin/Basic-OOP-Game.git&quot;,
+    &quot;accountId&quot;: &quot;747266fe-3c8a-49de-9b65-24b0f5f96ae9&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2nXZHeuPslOUbnkkwF0HtBDtmEv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -112,12 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729122882729</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tweaked the movement">
+      <option name="closed" value="true" />
+      <created>1729125139565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729125139566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started Coding" />
     <MESSAGE value="Player created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Player created" />
+    <MESSAGE value="Tweaked the movement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tweaked the movement" />
   </component>
 </project>
