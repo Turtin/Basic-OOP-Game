@@ -13,7 +13,7 @@ class Entity:
     colliders = []
     size = 0
 
-    def __init__(self, x: int, y: int, speed: int, size: int, name: str,entity: tk.Frame): # Entity constructor
+    def __init__(self, x: int, y: int, speed: float, size: int, name: str,entity: tk.Frame): # Entity constructor
         self.coordinates = (x, y)
         self.entity = entity
         self.speed = speed
@@ -62,8 +62,8 @@ class Player(Entity): # Player class
 
 
 class Enemy(Entity): # Enemy class
-    def __init__(self, colour: str, name: str, StartPos: (int,int)): # Enemy constructor
-        super().__init__(StartPos[0], StartPos[1], 1, 20, name, tk.Frame(window, width=20, height=20, bg=colour))
+    def __init__(self, colour: str, name: str, speed: float, StartPos: (int,int)): # Enemy constructor
+        super().__init__(StartPos[0], StartPos[1], speed, 20, name, tk.Frame(window, width=20, height=20, bg=colour))
 
     def trackPlayer(self, player: Player):
         if player.coordinates[0] + 15 > self.coordinates[0]:
@@ -123,9 +123,9 @@ lbl = tk.Label(window, text='', font=('Arial Bold', 50))
 
 # Entity starter
 player = Player()
-enemy1 = Enemy("green", "bob", (400, 300))
-enemy2 = Enemy("green", "jerry", (200, 100))
-enemy3 = Enemy("green", "tom", (600, 400))
+enemy1 = Enemy("green", "bob", 1.5, (400, 300))
+enemy2 = Enemy("green", "jerry", 1, (200, 100))
+enemy3 = Enemy("green", "tom", 0.5, (600, 400))
 
 Entities.append(enemy1)
 Entities.append(enemy2)
