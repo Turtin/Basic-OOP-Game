@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a80b0f8-12c7-4628-bbe6-2ccd0ddc9531" name="Changes" comment="Made speed easierto change">
+    <list default="true" id="7a80b0f8-12c7-4628-bbe6-2ccd0ddc9531" name="Changes" comment="Fixed a few things, made the collision and death work.&#10; Added a quit game button">
+      <change afterPath="$PROJECT_DIR$/Entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Enemy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entities/Player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
     </list>
@@ -152,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729473776662</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixed a few things, made the collision and death work.&#10; Added a quit game button">
+      <option name="closed" value="true" />
+      <created>1729559138683</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729559138683</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,6 +174,7 @@
     <MESSAGE value="Made so that the game doesn't do anything when not in focus, Tried to make some colliders, unsure currently why they don't work currently. Also, there's the diagonal movement bug, but not that significant." />
     <MESSAGE value="Added a few more guys and tweaked the code to make it work, also this is 100% last commit for today lol" />
     <MESSAGE value="Made speed easierto change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made speed easierto change" />
+    <MESSAGE value="Fixed a few things, made the collision and death work.&#10; Added a quit game button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a few things, made the collision and death work.&#10; Added a quit game button" />
   </component>
 </project>
