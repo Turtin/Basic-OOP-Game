@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a80b0f8-12c7-4628-bbe6-2ccd0ddc9531" name="Changes" comment="Fixed a few things, made the collision and death work.&#10; Added a quit game button">
-      <change afterPath="$PROJECT_DIR$/Entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/Enemy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entities/Player.py" afterDir="false" />
+    <list default="true" id="7a80b0f8-12c7-4628-bbe6-2ccd0ddc9531" name="Changes" comment="Fully refactored the game so it is easier to use and read. Also to be more organised">
+      <change afterPath="$PROJECT_DIR$/entities/weapons/Bullet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/GameTicker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads/InputController.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Enemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,13 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Basic OOP Game\dist" />
+      <recent name="D:\Code\Basic OOP Game" />
+      <recent name="D:\Code\Basic OOP Game\entities\threads" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Basic OOP Game" />
@@ -163,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729559138683</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Started to split the game into multiple files to just be better you know. Also I was bored and needed a small project to do or something idk">
+      <option name="closed" value="true" />
+      <created>1729562459155</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729562459155</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -175,6 +193,7 @@
     <MESSAGE value="Added a few more guys and tweaked the code to make it work, also this is 100% last commit for today lol" />
     <MESSAGE value="Made speed easierto change" />
     <MESSAGE value="Fixed a few things, made the collision and death work.&#10; Added a quit game button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed a few things, made the collision and death work.&#10; Added a quit game button" />
+    <MESSAGE value="Started to split the game into multiple files to just be better you know. Also I was bored and needed a small project to do or something idk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started to split the game into multiple files to just be better you know. Also I was bored and needed a small project to do or something idk" />
   </component>
 </project>

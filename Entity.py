@@ -33,9 +33,9 @@ class Entity:
         self.coordinates = (self.coordinates[0] + x * self.speed, self.coordinates[1] + y * self.speed)
 
         # Update the colliders
-        self.__updateColliders()
+        self.updateColliders()
 
-    def __updateColliders(self):
+    def updateColliders(self):
         self.colliders = {  # Updates the colliders by taking the coordinates and adding the size to them
             "nw": (self.coordinates[0], self.coordinates[1]),
             "n": (self.coordinates[0] + self.size / 2, self.coordinates[1]),
